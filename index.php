@@ -1,9 +1,10 @@
 <?php
 $file = "bilby.txt";
 $password = "password";
+$theme = "dark";
 ?>
 
-<html lang="en">
+<html lang="en" data-theme="<?php echo $theme ?>">
 <!-- Author: Dmitri Popov, dmpop@linux.com
          License: GPLv3 https://www.gnu.org/licenses/gpl-3.0.txt -->
 
@@ -14,7 +15,8 @@ $password = "password";
 	<meta charset="utf-8">
 	<link rel="shortcut icon" href="favicon.png" />
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="https://classless.de/classless.css">
+	<link rel="stylesheet" href="css/classless.css">
+	<link rel="stylesheet" href="css/themes.css">
 </head>
 
 <body>
